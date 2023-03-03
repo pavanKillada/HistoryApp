@@ -1,0 +1,44 @@
+li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  font-family: 'roboto';
+}
+.time-container {
+  width: 150px;
+}
+.time {
+  color: grey;
+  font-weight: bold;
+  margin-right: 30px;
+}
+.logo-content-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.logoUrl {
+  width: 30px;
+  margin-right: 20px;
+}
+.title-domain-container {
+  display: flex;
+  align-items: center;
+}
+.title {
+  color: #475569;
+  margin-right: 30px;
+}
+.domainUrl {
+  color: #64748b;
+}
+#delete {
+  margin-left: auto;
+  border: none;
+  background-color: transparent;
+}
+.delete-img {
+  width: 20px;
+  cursor: pointer;
+}
